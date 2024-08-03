@@ -1,4 +1,7 @@
 # CarBliss Todo List
+![Demo1](https://github.com/user-attachments/assets/2a8a1492-2839-4349-9858-5facb1a59282)
+![Uploading Demo2 (1).png…]()
+![Demo3](https://github.com/user-attachments/assets/c1939cf4-da3a-4f06-9be5-94e5645ad0ab)
 
 
 CarBliss Todo List is a responsive car landing page website that showcases various sections like Home, About, Review, Featured, and Contact. The website features smooth scrolling navigation, a stylish rhombus shape with effects, and a dark/light theme calculator.
