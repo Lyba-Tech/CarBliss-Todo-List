@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic page metadata and links to external stylesheets and icons -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarBliss Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo and navigation bar for the website -->
+        <a href="#" class="logo">Cars<span class="red-letter">Bliss</span></a>
+
+        <!-- Primary navigation -->
+        <nav class="navbar">
+            <a href="#home" class="">Home</a>
+            <a href="#about">About</a>
+            <a href="#review">Review</a>
+            <a href="#featured">Featured</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Social media links with icons from Boxicons -->
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </header>
+
+    <section id="home" class="home">
+        <!-- Main banner with a call-to-action button -->
+        <div class="home-content">
+            <h1>Speed Your Wings</h1>
+            <h3>Transforming!</h3>
+            <p>Your ultimate destination for discovering the finest automobiles, expert guidance throughout your journey, ensuring a seamless and enjoyable process. We’re dedicated to making your car ownership dreams come true with our commitment to excellence.</p>
+            <a href="#featured" class="btn">Explore Cars</a>
+        </div>
+
+        <!-- Decorative image with styling in style.css -->
+        <div class="home-img">
+            <div class="rhombus">
+                <img src="header.avif" alt="Car Image">
+            </div>
+        </div>
+
+        <!-- Additional decorative element -->
+        <div class="rhombus2"></div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>Welcome to CarsBliss, your ultimate destination for discovering the finest automobiles. Our mission is to provide exceptional service and expertise in the car buying experience.</p>
+            <p>Whether you’re looking for the latest models or classic favorites, our extensive selection and personalized service are designed to meet your needs. Learn more about our history, our values, and how we can help you find your perfect car.</p>
+        </div>
+
+        <!-- Car images with hover effect -->
+        <div class="car-gallery">
+            <div class="car-item">
+                <img src="car1.jpeg" alt="Car 1">
+            </div>
+            <div class="car-item">
+                <img src="car2.webp" alt="Car 2">
+            </div>
+            <div class="car-item">
+                <img src="car4.jpg" alt="Car 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="review" class="review">
+        <div class="review-content">
+            <h1>Customer Reviews</h1>
+            <div class="review-item">
+                <p>"CarsBliss helped me find my dream car! The process was smooth and the service was exceptional."</p>
+                <span>- John Doe</span> 
+            <div class="review-item">
+                <p>"Amazing experience! Highly recommend CarsBliss for anyone looking to buy a new car."</p>
+                <span>- Jane Smith</span>
+            </div>
+        </div>
+        </div>
+
+        <!-- Review Submission Form -->
+        <div class="review-form">
+            <h2>Leave a Review</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="review" name="review" placeholder="Enter your review" rows="3" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="featured" class="featured">
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="car5.jpg" style="width:100%">
+              <div class="text">Car Model 1</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="car4.jpg" style="width:100%">
+              <div class="text">Car Model 2</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="car2.webp" style="width:100%">
+              <div class="text">Car Model 3</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4/ 4</div>
+                <img src="car1.jpeg" style="width:100%">
+                <div class="text">Car Model 4</div>
+              </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          
+        </section>
+    <!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-content">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need further information, please feel free to contact us. We are here to help you!</p>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+
+</body>
+</html>
