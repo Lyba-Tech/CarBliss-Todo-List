@@ -43,8 +43,3 @@ The HTML file consists of a single-page layout with sections for Home, About, Re
 - **Theme Toggle**: The theme toggle button switches between dark and light themes by toggling classes.
 - **Calculator Operations**: The calculator performs basic arithmetic operations and includes clear, backspace, and equal functions.
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CarBliss-Todo-List.git
